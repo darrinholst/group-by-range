@@ -1,4 +1,4 @@
-const { range } = require("lodash");
+const range = require("lodash.range");
 const { groupByRange } = require("..");
 
 describe("group-by-range", () => {

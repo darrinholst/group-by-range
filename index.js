@@ -1,4 +1,5 @@
-const { groupBy, get } = require("lodash");
+const groupBy = require("lodash.groupby");
+const get = require("lodash.get");
 
 function groupByRange(collection, range, key) {
   return groupBy(collection, (item) =>
